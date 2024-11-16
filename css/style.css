@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    background-color: yellow;
+    color:  black;
+    text-align: center;
+    padding: 20px;
+
+}
+.nav ul{
+    background-color: red;
+    overflow: hidden;
+    
+}
+.nav li{
+    float: left;
+    list-style: none;
+}
+.nav ul li a{
+    display: block;
+    /* border: 3px solid black; */
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: aqua;
+
+}
+.nav a:hover{
+    color: cornsilk;
+}
+
+.main table{
+    margin-top: 50px;
+}
+
+.main table th,td,td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    width:200px ;
+
+}
+
+@media screen and (max-width:650px) {
+
+    .header{
+        background-color: yellow;
+        color:  black;
+        text-align: center;
+        padding: 3px;
+    
+    }
+    .nav ul li a{
+        display: block;
+        /* border: 1px solid black; */
+        padding: 5px;
+        font-size: 15px;
+        text-decoration: none;
+        color: aqua;
+    
+    }
+
+    .main table th,td,td{
+        border: 1px solid black;
+        padding: 1px;
+        text-align: center;
+        border-collapse: collapse;
+        width:5px ;
+    
+    }
+    #gihili{
+        height: 50px;
+        width: 50px;
+    }
+    #vaali{
+        height: 50px;
+        width: 50px;
+
+    }
+    #theri{
+        height: 50px;
+        width: 50px;
+
+    }
+    #selvan{
+        height: 50px;
+        width: 50px;
+
+    }
+    #vada{
+        height: 50px;
+        width: 50px;
+
+    }
+    
+}
